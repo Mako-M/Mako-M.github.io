@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.button {
+    position: relative;
+    padding: 10px 22px;
+    background: red;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:active{
+    transform: scale(0.95);
+}
