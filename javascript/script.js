@@ -1,1 +1,1 @@
-document.getElementById('button1').addEventListener('click', () => {window.location.href = 'second_page.html'});
+document.getElementById('button1').addEventListener('click', () => {window.location.href = 'html/second_page.html'});
